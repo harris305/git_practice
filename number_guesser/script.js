@@ -33,3 +33,9 @@ function updateScore(winner) {
       computerScore++;
     }
     }
+
+function advanceRound() {
+  //iterate currentroundnumber by one (this function will be called after each round ends)
+  currentRoundNumber++;
+
+}
