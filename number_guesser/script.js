@@ -25,8 +25,11 @@ function compareGuesses(human, computer, secret) {
   }
 }
 
-// added a new function
 function updateScore(winner) {
     // Iterate either humanscore or computerscore by one depending on the winner passed into this function (either 'human' or 'computer')
-    
-  }
+    if (winner === 'human') {
+      humanScore++; 
+    } else if (computer === 'computer') {
+      computerScore++;
+    }
+    }
