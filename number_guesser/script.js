@@ -25,4 +25,19 @@ function compareGuesses(human, computer, secret) {
   }
 }
 
+function updateScore(winner) {
+    // Iterate either humanscore or computerscore by one depending on the winner passed into this function (either 'human' or 'computer')
+    if (winner === 'human') {
+      humanScore++; 
+    } else if (winner === 'computer') {
+      computerScore++;
+    }
+    }
 
+function advanceRound() {
+  //iterate currentroundnumber by one (this function will be called after each round ends)
+  currentRoundNumber++;
+
+}
+//end of code
+// text
